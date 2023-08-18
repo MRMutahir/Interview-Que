@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift</title>
+</head>
+<body>
+    
+</body>
+<script>
+   function foo(personone, liftone, lifttwo){
+   var numone = Math.abs(personone - liftone);
+   var numtwo = Math.abs(personone - lifttwo);
+   if(numone < numtwo){
+    console.log("pehle lift aigi")
+   }
+   else if(numone > numtwo){
+    console.log("Dosri lift ai gi");
+   }
+   else{
+    console.log("Koi si bhi askti hai")
+   }
+}
+
+foo(5, 2, 7);
+foo(5, 7, 2);
+foo(5, 2, 7);
+</script>
+</html>
